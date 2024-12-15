@@ -17,7 +17,7 @@ jobs:
       run: |
         # Add your deployment commands here
         # For example, if you are using GitHub Pages:
-        echo "schedule.html" > schedule.html
+        echo "schedule.html" > index.html
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add index.html
