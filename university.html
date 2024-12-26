@@ -5,83 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <center>
-    <u><h1>University</h1></u>
-</center>
-    <img src="./img/New-logo.png" alt="usal-logo" width="50%" style="max-width: 300px;">
+    <header class="university-header">
+        <h1 class="page-title">University</h1>
+    </header>
+
+    <div class="uni-img-container">
+        <div class="image-container1">
+            <img src="./img/New-logo.png" alt="USAL logo" class="logo-image" width="400px" height="200px">
+        </div>
+        <div class="image-container1">
+            <img src="./img/usal-campus.jpg" alt="USAL campus" class="campus-image" width="" height="250px">
+        </div>
+    </div>
+    <main>
+        <div class="content-container">
+
+            <p>
+                I am currently studying Computer Science at the University of San Andrés (USAL). The program offers a
+                solid
+                foundation in programming, algorithms, and software development, preparing me for a wide range of
+                careers in
+                technology. The university's focus on innovation and practical skills has been invaluable, allowing me
+                to work
+                on projects that challenge my problem-solving abilities and expand my technical knowledge. I'm excited
+                to
+                continue learning and growing in this dynamic field, taking full advantage of the opportunities and
+                resources
+                USAL provides.
+            </p>
+
+            <h3>Courses I registered this semester:</h3>
+            <table class="courses-table">
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Professor</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Advanced Database</td>
+                        <td>Dr Hussein Dhayne</td>
+                        <td>Monday 9:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Advanced Data Structure</td>
+                        <td>Dr. Yasser Fadlallah</td>
+                        <td>Wednesday 10:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Numerical Computation</td>
+                        <td>Dr Ayman El Zein</td>
+                        <td>Thursday 2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Security</td>
+                        <td>Dr. Abbass Madi</td>
+                        <td>Friday 2:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Principle of First Aid</td>
+                        <td>Dr. Hussein AlaaEddine</td>
+                        <td>Friday 4:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
 
 
-    <p>I am currently studying Computer Science at the University of Science and Arts in Lebanon (USAL). The program offers a solid
-        foundation in programming, algorithms, and software development, preparing me for a wide range of careers in
-        technology. The university's focus on innovation and practical skills has been invaluable, allowing me to work
-        on projects that challenge my problem-solving abilities and expand my technical knowledge. I'm excited to
-        continue learning and growing in this dynamic field, taking full advantage of the opportunities and resources
-        USAL provides.</p>
 
-    <u><h3>Courses I registered this semester:</h3></u>
-    <table border="1">
-        <thead>
-            <th>Course Name</th>
-            <th>Professor</th>
-            <th>Time</th>
-        </thead>
+            <div class="button-container">
+                <a href="./schedule.html">
+                    <button class="back-button">Back to Schedule</button>
+                </a>
+            </div>
+        </div>
+    </main>
 
-        <tbody>
-            <tr>
-                <td>Advanced Database</td>
-                <td>Dr Hussein Dhayne</td>
-                <td>Monday 9:00 AM</td>
-            </tr>
-
-            <tr>
-                <td>Advanced Data Structure</td>
-                <td>Dr. Yasser Fadlallah</td>
-                <td>Wednesday 10:00 AM</td>
-            </tr>
-
-            <tr>
-                <td>Numerical Computation</td>
-                <td>Dr Ayman El Zein</td>
-                <td>Thursday 2:00 PM</td>
-            </tr>
-
-            <tr>
-                <td>Computer Security</td>
-                <td>Dr. Abbass Madi</td>
-                <td>Friday 2:30 PM</td>
-            </tr>
-            
-            <tr>
-                <td>Principle of First Aid</td>
-                <td>Dr. Hussein AlaaEddine</td>
-                <td>Friday 4:00 PM</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    
-    <img src="./img/usal-campus.jpg" alt="campus" width="50%" style="max-width: 500px;">
-    <br><br>
-    <a href="./schedule.html">
-        <button style="background-color: cadetblue; padding: 10px 20px; border: none; color: white; border-radius: 5px;">Back to Schedule</button>
-    </a>
-    <footer style="margin-top: 50px; background-color: rgb(201, 195, 195); padding: 20px; text-align: center; font-family: Arial;">
-    <p>Created by Mohamad Al Ayoubi</p>
-    <p>For more information, contact us via:</p>
-    <ul style="list-style-type: none; padding: 0;">
-        <li>
-            Phone: <a href="tel:+96170893180" style="color: #2c3e50; text-decoration: none;">+961 (70) 893 180</a>
-        </li>
-        <li>
-            Email: <a href="mailto:mohamadayoubi040@gmail.com" style="color: #2c3e50; text-decoration: none;">mohamadayoubi040@gmail.com</a>
-        </li>
-        <li>
-            Visit my <a href="https://www.linkedin.com/in/mohamad-al-ayoubi-87271224b/" style="color: #2c3e50;">LinkedIn</a> page.
-        </li>
-    </ul>
+    <footer>
+        <p>Created by Mohamad Al Ayoubi</p>
+        <p>For more information, contact us via:</p>
+        <ul type="none">
+            <li>Phone: <a href="tel:+96170893180">+961 (70) 893 180</a></li>
+            <li>Email: <a href="mailto:mohamadayoubi040@gmail.com">mohamadayoubi040@gmail.com</a></li>
+            <li>Visit my <a href="https://www.linkedin.com/in/mohamad-al-ayoubi-87271224b/">LinkedIn</a> page.</li>
+        </ul>
     </footer>
 </body>
 

@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:lightgrey;">
-    <center>
-    <h1>My Schedule</h1>
-    <p>Below you can find the daily schedule of Mohamad Al Ayoubi.</p>
-    <table border="1">
-        <thead>
-            <th>Time</th>
-            <th>Activity</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>9:00 AM</td>
-                <td><a href="./breakfast.html">Breakfast</a></td>
-            </tr>
-            <tr>
-                <td>10:00 AM</td>
-                <td><a href="./university.html">University Sessions</a></td>
-            </tr>
 
-            <tr>
-                <td>2:00 PM</td>
-                <td><a href="./lunch.html">lunch</a></td>
-            </tr>
+<body>
+<!-- defined as div not header since it is different from other header in another pages -->
+    <div class="header-schedule">
+        <h1>My Schedule</h1>
+        <p>Below you can find the daily schedule of Mohamad Al Ayoubi.</p>
+    </div>
+    
+    <main>
+        <table class="schedule-table">
+            <thead>
+                <th>Time</th>
+                <th>Activity</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td><a href="./breakfast.html">Breakfast</a></td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td><a href="./university.html">University Sessions</a></td>
+                </tr>
 
-            <tr>
-                <td>2:30 ~ 4:00 PM</td>
-                <td><a href="./Internship.html">Internship Tasks</a></td>
-            </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td><a href="./lunch.html">lunch</a></td>
+                </tr>
 
-            <tr>
-                <td>4:00 ~ 9:00 PM</td>
-                <td><a href="./nightWork.html">Night Work</a></td>
-            </tr>
-        </tbody>
+                <tr>
+                    <td>2:30 ~ 4:00 PM</td>
+                    <td><a href="./Internship.html">Internship Tasks</a></td>
+                </tr>
 
-        <tfoot>
-            <tr ><td colspan="2">Sleep and have a good night!</td></tr>
-        </tfoot>
-    </table>
+                <tr>
+                    <td>4:00 ~ 9:00 PM</td>
+                    <td><a href="./nightWork.html">Night Work</a></td>
+                </tr>
+            </tbody>
 
-</center>
-<footer style="margin-top: 50px; background-color: rgb(201, 195, 195); padding: 20px; text-align: center; font-family: Arial;">
-    <p>Created by Mohamad Al Ayoubi</p>
-    <p>For more information, contact us via:</p>
-    <ul style="list-style-type: none; padding: 0;">
-        <li>
-            Phone: <a href="tel:+96170893180" style="color: #2c3e50; text-decoration: none;">+961 (70) 893 180</a>
-        </li>
-        <li>
-            Email: <a href="mailto:mohamadayoubi040@gmail.com" style="color: #2c3e50; text-decoration: none;">mohamadayoubi040@gmail.com</a>
-        </li>
-        <li>
-            Visit my <a href="https://www.linkedin.com/in/mohamad-al-ayoubi-87271224b/" style="color: #2c3e50;">LinkedIn</a> page.
-        </li>
-    </ul>
-    </footer>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Sleep and have a good night!</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+        <footer class="footer">
+            <p>Created by Mohamad Al Ayoubi</p>
+            <p>For more information, contact us via:</p>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>
+                    Phone: <a href="tel:+96170893180" target="_blank">+961 (70) 893 180</a>
+                </li>
+                <li>
+                    Email: <a href="mailto:mohamadayoubi040@gmail.com" target="_blank">mohamadayoubi040@gmail.com</a>
+                </li>
+                <li>
+                    Visit my <a href="https://www.linkedin.com/in/mohamad-al-ayoubi-87271224b/"
+                        target="_blank">LinkedIn</a> page.
+                </li>
+            </ul>
+        </footer>
 </body>
+
 </html>
